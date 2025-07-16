@@ -2,9 +2,33 @@
     text-align: center;
 }
 
-.GridName ul {
+
+.container_membres {
+    width: 500px;
+    margin: auto;
     display: grid;
-    grid-template-rows: auto auto auto;
-    grid-template-columns: auto auto auto auto;
-    list-style: none;
+    grid-template-rows: repeat(6,40px);
+    grid-template-columns: repeat(4,125px);
+    border: 1px solid black;
+}
+.container_membres img {
+    width: 250px;
+    height: 160px;
+}
+.cell {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+.image_hover {
+    display: none;
+    position: absolute;
+    top:40px ;
+    left: -125px;
+}
+.cell:hover .image_hover {
+    display: block;
+    position: absolute;
+    z-index: 1000;
 }
