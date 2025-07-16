@@ -19,11 +19,11 @@ input {
 
 button {
     text-align: center;
-    font-size: x-large;
-    color: white;
-    background-color: rgb(240, 72, 72);
-    border-color:  rgb(240, 72, 72);;
-    width: 500px;
-    height: 55px;
 }
 
+.GridName ul {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    list-style: none;
+}
