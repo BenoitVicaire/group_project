@@ -27,8 +27,11 @@
     top:40px ;
     left: -125px;
 }
-.cell:hover .image_hover {
+#remi:hover ~ #remiimg {
+    display: block;
+}
+/* .cell:hover .image_hover {
     display: block;
     position: absolute;
     z-index: 1000;
-}
+} */
