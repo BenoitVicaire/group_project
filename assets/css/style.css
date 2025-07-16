@@ -10,6 +10,7 @@
     grid-template-rows: repeat(6,40px);
     grid-template-columns: repeat(4,125px);
     border: 1px solid black;
+    position: relative;
 }
 .container_membres img {
     width: 250px;
@@ -20,18 +21,69 @@
     padding: 10px;
     text-align: center;
     position: relative;
+    background-color: rgb(1, 0, 31);
+    color: beige;
+}
+.emptycell {
+    background-color: rgb(1, 0, 31);
+}
+.cell:hover {
+    color:rgb(209, 23, 23);
+    border-color: azure;
 }
 .image_hover {
     display: none;
     position: absolute;
     top:40px ;
-    left: -125px;
+    left: 125px;
 }
 #remi:hover ~ #remiimg {
     display: block;
 }
-/* .cell:hover .image_hover {
+#pierre:hover ~ #pierreimg {
     display: block;
-    position: absolute;
-    z-index: 1000;
-} */
+}
+#denis:hover ~ #denisimg {
+    display: block;
+}
+#anthony:hover ~ #anthonyimg {
+    display: block;
+}
+#kathy:hover ~ #kathyimg {
+    display: block;
+}
+#ange:hover ~ #angeimg {
+    display: block;
+}
+#guigui:hover ~ #guiguiimg {
+    display: block;
+}
+#sylvere:hover ~ #sylvereimg {
+    display: block;
+}
+#napoleon:hover ~ #napoleonimg {
+    display: block;
+}
+#eddy:hover ~ #eddyimg {
+    display: block;
+}
+#william:hover ~ #williamimg {
+    display: block;
+}
+#quentin:hover ~ #quentinimg {
+    display: block;
+}
+#jimmy:hover ~ #jimmyimg {
+    display: block;
+}
+#antoine:hover ~ #antoineimg {
+    display: block;
+}
+#benoit:hover ~ #benoitimg {
+    display: block;
+}
+#bob:hover ~ #bobimg {
+    display: block;
+}
+
+
