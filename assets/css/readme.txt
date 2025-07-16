@@ -1,0 +1,1 @@
+On a utilisé Bob pour regler les problème de github parce qu'il faisait de la résistance
