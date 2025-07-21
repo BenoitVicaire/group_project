@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>TP Groupe 2</title>
 </head>
 
 <body>
     <main>
         <header>
-        <nav class="navbar">
+        <!-- <nav class="navbar">
         <div class="logo">DEV31 ERN 25-02</div>
         <div class="menu">
             <ul>
@@ -20,8 +21,20 @@
                 <li><a href="#"><div class="test">Video</div></a></li>
             </ul>
         </div>
-        
-
+        </nav> -->
+        <nav class="navbar">
+        <div class="topnav">
+        <a href="#home" class ="active">DEV31 ERN 25-02</a>
+        <div id="myLinks">
+            <a href="#">Accueil</a>
+            <a href="#">A propos</a>
+            <a href="#forms">Contact</a>
+            <a href="#video">Video</a>
+        </div>
+        <a href ="javascript:(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        </div>
         </nav>
 
         </header>
@@ -129,12 +142,12 @@
         
             <div id="video">
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/LpNVf8sczqU?si=Bm_yKPoBzWHIMIrZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe  src="https://www.youtube.com/embed/LpNVf8sczqU?si=Bm_yKPoBzWHIMIrZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         
             </video>
             </div>
             <div id="forms">
-        <h1><br>Formulaire de Contact<br></h1>
+        <h1>Formulaire de Contact</h1>
         <form action="">
 
         <label for="nom">Nom</label><br>
@@ -154,5 +167,16 @@
 
     </footer>
     </main>
+    <script src="https://kit.fontawesome.com/ca15e01b5e.js" crossorigin="anonymous"></script>
+    <script>
+        function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+    x.style.display = "none";
+    } else {
+    x.style.display = "block";
+    }
+    } 
+    </script>
 </body>
 </html>
